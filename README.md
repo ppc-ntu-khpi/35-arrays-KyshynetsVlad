@@ -65,7 +65,8 @@ public class Exercise {
 }
 ``` 
 ## CLASS TestResult:
-```package test;
+```java
+package test;
 import domain.Exercise;
 
 /**
