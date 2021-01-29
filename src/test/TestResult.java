@@ -1,12 +1,22 @@
 package test;
-
 import domain.Exercise;
 
+/**
+ * Main class TestResult
+ */
 public class TestResult {
-
+    /**
+     * An array of command line arguments supplied to the program, with each argument being a String in the array.
+     * @param args Writing an array to a string
+     */
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        /**
+         * Setting the size of an array
+         */
+        int[] n = new int[11];
+        /**
+         * Displaying an array
+         */
+        System.out.println("Your Array:" + Exercise.Calculate(n));
     }
 }
